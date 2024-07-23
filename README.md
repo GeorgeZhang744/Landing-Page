@@ -1,6 +1,6 @@
 # My Personal Website
 
-This website is built using a template licensed under the Creative Commons Attribution 3.0 Unported License. The original template was created by AJ from HTML5 UP.
+This website is built using a template licensed under the Creative Commons Attribution 3.0 Unported License. The original template was created by AJ from [http://html5up.net](HTML5 UP).
 
 ## License
 
@@ -8,7 +8,7 @@ This project is licensed under the terms of the [Creative Commons Attribution 3.
 
 ## Credits
 
-Original template by AJ from HTML5 UP. For more information, please see the [LICENSE.txt](LICENSE.txt).
+Original template by AJ from [http://html5up.net](HTML5 UP). For more information, please see the [LICENSE.txt](LICENSE.txt).
 
 ## Modifications
 
