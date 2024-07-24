@@ -13,20 +13,39 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 		<link rel="icon" href="./assets/favicon_io/favicon.ico">
 		<style>
-        /* Custom styles to hide bullets and adjust alignment */
         .list-none {
-            list-style-type: none; /* Hide bullet points */
+            list-style-type: none;
         }
         .list-item {
-            display: flex; /* Align items horizontally */
-            align-items: center; /* Center items vertically */
-            padding: 4px 0; /* Add some vertical padding */
+            display: flex;
+            align-items: center;
+            padding: 4px 0;
         }
         .list-item img {
-            width: 24px; /* Set width for the image */
-            height: 24px; /* Set height for the image */
-            margin-right: 8px; /* Space between image and text */
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
         }
+				.row.aln-center {
+						display: flex;
+						flex-wrap: wrap;
+				}
+				.box.style1 {
+						display: flex;
+						flex-direction: column;
+						justify-content: space-between;
+						height: 100%;
+				}
+				.box.style2 {
+						display: flex;
+						flex-direction: column;
+						justify-content: space-between;
+						height: 100%;
+				}
+				.box.style2 ul {
+						flex-grow: 1;
+				}
+
     </style>
 	</head>
 	<body class="is-preload">
@@ -59,38 +78,39 @@
 		<!-- about me -->
 			<article id="about-me" class="wrapper style2">
 				<div class="container">
-					<header>
-						<h2>About Me</h2>
-						<p>Things That Excites Me:</p>
-					</header>
-					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-lightbulb"></span>
-								<h3>Problem Solving</h3>
-								<p>I enjoy tackling challenges through software engineering, where I can blend my analytical skills with creative thinking to build practical solutions. This is the main reason I entered the field of computer science.</p>
-							</section>
+						<header>
+								<h2>About Me</h2>
+								<p>Things That Excites Me:</p>
+						</header>
+						<div class="row aln-center">
+								<div class="col-4 col-6-medium col-12-small">
+										<section class="box style1">
+												<span class="icon featured fa-lightbulb"></span>
+												<h3>Problem Solving</h3>
+												<p>I enjoy tackling challenges through software engineering, where I can blend my analytical skills with creative thinking to build practical solutions. This is the main reason I entered the field of computer science.</p>
+										</section>
+								</div>
+								<div class="col-4 col-6-medium col-12-small">
+										<section class="box style1">
+												<span class="icon solid featured fa-globe"></span>
+												<h3>Web Development</h3>
+												<p>I believe web developing is diverse and interesting because is a powerful way to express ideas and convey information through visually compelling and interactive designs. Also, it is just fun!</p></p>
+										</section>
+								</div>
+								<div class="col-4 col-6-medium col-12-small">
+										<section class="box style1">
+												<span class="icon solid featured fa-desktop"></span>
+												<h3>Building Apps</h3>
+												<p>I like building apps because they allow me solve problems and automate processes, making complex tasks more efficient and effective. Turning ideas into functional software that people find useful and enjoyable is deep rewarding.</p>
+										</section>
+								</div>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fa-globe"></span>
-								<h3>Web Development</h3>
-								<p>I believe web developing is diverse and interesting because is a powerful way to express ideas and convey information through visually compelling and interactive designs. Also, it is just fun!</p></p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fa-desktop"></span>
-								<h3>Building Apps</h3>
-								<p>I like building apps because they allow me solve problems and automate processes, making complex tasks more efficient and effective. Turning ideas into functional software that people find useful and enjoyable is deep rewarding.</p>
-							</section>
-						</div>
-					</div>
-					<footer>
-						<a href="#skills" class="button large scrolly">See My Skills</a>
-					</footer>
+						<footer>
+								<a href="#skills" class="button large scrolly">See My Skills</a>
+						</footer>
 				</div>
 			</article>
+
 
 		<!-- Skills -->
 			<article id="skills" class="wrapper style3">
@@ -131,9 +151,6 @@
 										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
 										<span>C</span>
 									</li>
-									<li class="list-item"></br></li>
-									<li class="list-item"></br></li>
-									<li class="list-item"></br></li>
 								</ul>
 							</article>
 						</div>
@@ -209,9 +226,6 @@
 										<li class="list-item">
 											<span>Data Visualization</span>
 										</li>
-										<li class="list-item"></br></li>
-										<li class="list-item"></br></li>
-										<li class="list-item"></br></li>
 									</ul>
 							</article>
 						</div>
