@@ -1,284 +1,342 @@
-<!DOCTYPE HTML>
-<!--
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>George Zhang</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-		<link rel="icon" href="./assets/favicon_io/favicon.ico">
-		<style>
-        .list-none {
-            list-style-type: none;
-        }
-        .list-item {
-            display: flex;
-            align-items: center;
-            padding: 4px 0;
-        }
-        .list-item img {
-            width: 24px;
-            height: 24px;
-            margin-right: 8px;
-        }
-				.row.aln-center {
-						display: flex;
-						flex-wrap: wrap;
-				}
-				.box.style1 {
-						display: flex;
-						flex-direction: column;
-						height: 100%;
-				}
-				.box.style2 {
-						display: flex;
-						flex-direction: column;
-						justify-content: space-between;
-						height: 100%;
-				}
-				.box.style2 ul {
-						flex-grow: 1;
-				}
-
-    </style>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="George Zhang — Backend, AI/ML Systems, and Distributed Systems Engineer." />
+		<title>George Zhang | Backend &amp; AI Systems Engineer</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="assets/css/portfolio.css" />
+		<link rel="icon" href="assets/favicon_io/favicon.ico" />
 	</head>
-	<body class="is-preload">
-
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Top</a></li>
-					<li><a href="#about-me">About Me</a></li>
+	<body>
+		<nav id="nav" class="site-nav" aria-label="Primary">
+			<div class="container">
+				<a href="#top" class="nav-brand">George Zhang</a>
+				<button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<ul id="nav-menu" class="nav-links">
+					<li><a href="#top">Home</a></li>
+					<li><a href="#about-me">About</a></li>
+					<li><a href="#projects">Projects</a></li>
 					<li><a href="#skills">Skills</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
-			</nav>
+			</div>
+		</nav>
 
-		<!-- Home -->
-			<article id="top" class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<div class="col-8 col-7-large col-12-medium">
-							<header>
-								<h1>Hi. I'm <strong>George Zhang</strong>.</h1>
-							</header>
-							<p>I am a senior at the University of Massachusetts Amherst, majoring in Computer Science. I am passionate about software engineering and actively seeking internship opportunities to enhance my professional skills and contribute to designing software applications that address real-world challenges.</p>
-							<a href="#about-me" class="button large scrolly">Learn About Me</a>
-						</div>
+		<main>
+			<!-- Hero -->
+			<section id="top" class="section section--hero">
+				<div class="container hero">
+					<p class="hero-label">Backend · AI/ML Systems · Distributed Systems</p>
+					<h1>Hi, I'm <strong>George Zhang</strong>.</h1>
+					<p class="hero-lead">
+						I'm a Computer Science graduate from the University of Massachusetts Amherst with academic and project experience 
+						in backend engineering, distributed systems, machine learning, reinforcement learning, and artificial intelligence. 
+						Currently seeking software engineering opportunities involving backend development and AI/ML-related technologies 
+						in collaborative and technically driven environments.
+					</p>
+					<br>
+					<br>
+					<div class="hero-actions">
+						<a href="#projects" class="btn btn--primary">View Projects</a>
+						<a href="assets/GeorgeZhang.pdf" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">
+							<i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+							Download Resume
+						</a>
 					</div>
 				</div>
-			</article>
+			</section>
 
-		<!-- about me -->
-			<article id="about-me" class="wrapper style2">
+			<!-- About -->
+			<section id="about-me" class="section section--alt">
 				<div class="container">
-						<header>
-								<h2>About Me</h2>
-								<p>Things That Excites Me:</p>
-						</header>
-						<div class="row aln-center">
-								<div class="col-4 col-6-medium col-12-small">
-										<section class="box style1">
-												<span class="icon featured fa-lightbulb"></span>
-												<h3>Problem Solving</h3>
-												<p>I enjoy tackling challenges through software engineering, where I can blend my analytical skills with creative thinking to build practical solutions. This is the main reason I entered the field of computer science.</p>
-										</section>
-								</div>
-								<div class="col-4 col-6-medium col-12-small">
-										<section class="box style1">
-												<span class="icon solid featured fa-globe"></span>
-												<h3>Web Development</h3>
-												<p>I believe web developing is diverse and interesting because is a powerful way to express ideas and convey information through visually compelling and interactive designs. Also, it is just fun!</p>
-										</section>
-								</div>
-								<div class="col-4 col-6-medium col-12-small">
-										<section class="box style1">
-												<span class="icon solid featured fa-desktop"></span>
-												<h3>Building Apps</h3>
-												<p>I like building apps because they allow me solve problems and automate processes, making complex tasks more efficient and effective. Turning ideas into functional software that people find useful and enjoyable is deep rewarding.</p>
-										</section>
-								</div>
-						</div>
-						<footer>
-								<a href="#skills" class="button large scrolly">See My Skills</a>
-						</footer>
-				</div>
-			</article>
-
-
-		<!-- Skills -->
-			<article id="skills" class="wrapper style3">
-				<div class="container">
-					<header>
-						<h2>What I Know:</h2>
+					<header class="section-header">
+						<h2>About</h2>
+						<p>Engineering areas that interest me:</p>
 					</header>
-					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<h3>Programming Languages</h3>
-								<ul class="list-none">
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-										<span>JavsScript</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-										<span>TypeScript</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-										<span>HTML</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-										<span>CSS</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-										<span>Python</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
-										<span>Java</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
-										<span>C</span>
-									</li>
-								</ul>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<h3>Development Tools</h3>
-								<ul class="list-none">
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
-										<span>VSCode</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg" />
-										<span>PyCharm</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" />
-										<span>IntelliJ</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-										<span>Git</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-										<span>React</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-										<span>TailwindCSS</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
-										<span>Postman</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
-										<span>PostgreSQL</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
-										<span>MongoDB</span>
-									</li>
-									<li class="list-item">
-										<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
-										<span>Figma</span>
-									</li>
-								</ul>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<h3>Technical Skills</h3>
-									<ul class="">
-										<li class="list-item">
-											<span>RESTful APIs</span>
-										</li>
-										<li class="list-item">
-											<span>API Design</span>
-										</li>
-										<li class="list-item">
-											<span>Data Structures & Algorithms</span>
-										</li>
-										<li class="list-item">
-											<span>Software testing</span>
-										</li>
-										<li class="list-item">
-											<span>WebSockets</span>
-										</li>
-										<li class="list-item">
-											<span>Supervised Machine Learning</span>
-										</li>
-										<li class="list-item">
-											<span>Data Visualization</span>
-										</li>
-									</ul>
-							</article>
-						</div>
+					<div class="card-grid">
+						<article class="card">
+							<div class="card-icon" aria-hidden="true">
+								<i class="fa-solid fa-brain"></i>
+							</div>
+							<h3>Artificial Intelligence</h3>
+							<p>
+								I enjoy exploring how intelligent systems learn and make decisions through reinforcement learning 
+								and machine learning. Building environments, experimenting with different agents, and analyzing their 
+								behavior is one of the areas of computer science that interests me the most.
+							</p>
+						</article>
+						<article class="card">
+							<div class="card-icon" aria-hidden="true">
+								<i class="fa-solid fa-server"></i>
+							</div>
+							<h3>Backend Engineering</h3>
+							<p>
+								I like building backend systems because they power the core functionality behind applications 
+								and services. Designing APIs, handling real-time communication, and managing data flow are problems 
+								I find both challenging and rewarding.
+							</p>
+						</article>
+						<article class="card">
+							<div class="card-icon" aria-hidden="true">
+								<i class="fa-solid fa-network-wired"></i>
+							</div>
+							<h3>Distributed Systems</h3>
+							<p>
+								I am interested in how distributed systems coordinate and communicate under concurrent workloads 
+								and failures. Learning about synchronization, replication, and fault tolerance has given me a deeper 
+								appreciation for reliable system design.
+							</p>
+						</article>
 					</div>
-					<footer>
-						<a href="#contact" class="button large scrolly">Get in Touch with Me</a>
-					</footer>
+					<div class="section-cta">
+						<a href="#projects" class="btn btn--primary">Featured Work</a>
+					</div>
 				</div>
-			</article>
+			</section>
 
-		<!-- Contact -->
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-					<header>
-						<a href="./assets/GeorgeZhang.pdf" class="button large" target="_blank">See My Resume</a>
+			<!-- Projects -->
+			<section id="projects" class="section">
+				<div class="container">
+					<header class="section-header">
+						<h2>Featured Projects</h2>
+						<p>Selected systems work across reinforcement learning, distributed simulation, and production-style backends.</p>
 					</header>
-					<div class="row">
-						<div class="col-12">
-							<hr />
-							<h3>Find me on ...</h3>
-							<ul class="social">
-								<li><a href="mailto:georgezhang744@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-								<li><a href="https://www.linkedin.com/in/george-zhang-4606a6268/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/GeorgeZhang744" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-								<!--
-								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
-								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-								-->
+					<div class="project-grid">
+						<article class="project-card">
+							<h3>ScaleRL Reinforcement Learning Framework</h3>
+							<p class="description">
+								A reinforcement learning framework built for experimenting with PPO, DQN, and A2C agents in custom Gymnasium environments. 
+								Includes configurable training workflows, evaluation tooling, and reproducible testing pipelines for comparing agent performance.
+							</p>
+							<ul class="project-highlights">
+								<li>Modular training structure for different RL algorithms and policies</li>
+								<li>Custom environment integration and rollout tracking</li>
+								<li>Evaluation tooling for model comparison and experiment analysis</li>
 							</ul>
-							<hr />
-						</div>
+							<div class="tag-list">
+								<span class="tag">Python</span>
+								<span class="tag">PyTorch</span>
+								<span class="tag">Gymnasium</span>
+								<span class="tag">Stable-Baselines3</span>
+								<span class="tag">Reinforcement Learning</span>
+							</div>
+							<a href="https://github.com/algebra2boy/Popeyes-ScaleRL" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">
+								<i class="fa-brands fa-github" aria-hidden="true"></i>
+								View on GitHub
+							</a>
+						</article>
+
+						<article class="project-card">
+							<h3>Multi-Agent Poker AI Framework</h3>
+							<p class="description">
+								A multi-agent poker AI project focused on strategic decision-making under uncertainty through simulation, opponent behavior modeling, 
+								and self-play training. The project explores how agents adapt their strategies in adversarial environments with incomplete information.
+							</p>
+							<ul class="project-highlights">
+								<li>Monte Carlo-based evaluation for action selection under uncertainty</li>
+								<li>Opponent modeling and probabilistic decision-making</li>
+								<li>Self-play simulations for adaptive strategy refinement</li>
+							</ul>
+							<div class="tag-list">
+								<span class="tag">Python</span>
+								<span class="tag">Monte Carlo Simulation</span>
+								<span class="tag">Multi-Agent AI</span>
+								<span class="tag">Game Theory</span>
+							</div>
+							<a href="https://github.com/GeorgeZhang744/AI-Poker" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">
+								<i class="fa-brands fa-github" aria-hidden="true"></i>
+								View on GitHub
+							</a>
+						</article>
+
+						<article class="project-card">
+							<h3>Distributed Trading System Simulation</h3>
+							<p class="description">
+								A distributed systems simulation exploring concurrency, coordination, replication, and fault tolerance through a socket-based marketplace 
+								environment with buyers, sellers, traders, and warehouse services.
+							</p>
+							<ul class="project-highlights">
+								<li>Concurrent socket communication between distributed processes</li>
+								<li>Logical clocks and leader election for coordination</li>
+								<li>Replication and fault-handling under concurrent workloads</li>
+							</ul>
+							<div class="tag-list">
+								<span class="tag">Python</span>
+								<span class="tag">Sockets</span>
+								<span class="tag">Concurrency</span>
+								<span class="tag">Distributed Systems</span>
+								<span class="tag">Fault Tolerance</span>
+							</div>
+							<a href="https://github.com/GeorgeZhang744/Distributed-Trading-System" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">
+								<i class="fa-brands fa-github" aria-hidden="true"></i>
+								View on GitHub
+							</a>
+						</article>
+
+						<article class="project-card">
+							<h3>IceQueb Office Hour Queue System</h3>
+							<p class="description">
+								A real-time office hour queue management system designed to support live queue updates, session management, 
+								and communication between students and faculty through backend APIs and WebSocket synchronization.
+							</p>
+							<ul class="project-highlights">
+								<li>REST APIs for queue operations and session workflows</li>
+								<li>Real-time updates using Socket.io event synchronization</li>
+								<li>MongoDB integration for managing queue data, user accounts, and session information</li>
+							</ul>
+							<div class="tag-list">
+								<span class="tag">Node.js</span>
+								<span class="tag">Express.js</span>
+								<span class="tag">Socket.io</span>
+								<span class="tag">MongoDB</span>
+								<span class="tag">REST APIs</span>
+							</div>
+							<a href="https://github.com/JianxinLin28/ice-Queb" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">
+								<i class="fa-brands fa-github" aria-hidden="true"></i>
+								View on GitHub
+							</a>
+						</article>
 					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; 2024 George Zhang. All rights reserved.</li><li>Original Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Modified by: George Zhang</li>
-						</ul>
-					</footer>
+					<div class="section-cta">
+						<a href="#skills" class="btn btn--primary">Technical Skills</a>
+					</div>
 				</div>
-			</article>
+			</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<!-- Skills -->
+			<section id="skills" class="section section--alt">
+				<div class="container">
+					<header class="section-header">
+						<h2>Skills</h2>
+						<p>Languages, platforms, and systems concepts used across backend, ML, and distributed work.</p>
+					</header>
+					<div class="skills-grid">
+						<article class="card skill-card">
+							<h3>Languages</h3>
+							<ul class="skill-list">
+								<li>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="" width="20" height="20" />
+									<span>Python</span>
+								</li>
+								<li>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="" width="20" height="20" />
+									<span>Java</span>
+								</li>
+								<li>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="" width="20" height="20" />
+									<span>C</span>
+								</li>
+								<li>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="" width="20" height="20" />
+									<span>C++</span>
+								</li>
+								<li>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" width="20" height="20" />
+									<span>JavaScript</span>
+								</li>
+								<li>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="" width="20" height="20" />
+									<span>TypeScript</span>
+								</li>
+							</ul>
+						</article>
 
+						<article class="card skill-card">
+							<h3>Frameworks &amp; Technologies</h3>
+							<ul class="skill-list">
+								<li>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="" width="20" height="20" />
+									<span>PyTorch</span>
+								</li>
+								<li><i class="fa-solid fa-robot" aria-hidden="true"></i><span>Gymnasium</span></li>
+								<li><i class="fa-solid fa-chart-line" aria-hidden="true"></i><span>Stable-Baselines3</span></li>
+								<li>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="" width="20" height="20" />
+									<span>Docker</span>
+								</li>
+								<li>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" width="20" height="20" />
+									<span>PostgreSQL</span>
+								</li>
+								<li>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="" width="20" height="20" />
+									<span>MongoDB</span>
+								</li>
+								<li>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="" width="20" height="20" />
+									<span>Express.js</span>
+								</li>
+								<li><i class="fa-solid fa-plug" aria-hidden="true"></i><span>Socket.io</span></li>
+								<li>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" width="20" height="20" />
+									<span>Git</span>
+								</li>
+							</ul>
+						</article>
+
+						<article class="card skill-card">
+							<h3>Systems &amp; AI</h3>
+							<ul class="skill-list skill-list--concepts">
+								<li>Distributed Systems</li>
+								<li>Reinforcement Learning</li>
+								<li>Machine Learning</li>
+								<li>Concurrency</li>
+								<li>REST APIs</li>
+								<li>Fault Tolerance</li>
+								<li>Data Structures &amp; Algorithms</li>
+								<li>API Design &amp; Testing</li>
+							</ul>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!-- Contact -->
+			<section id="contact" class="section">
+				<div class="container">
+					<div class="contact-block">
+						<h2>Find me on ...</h2>
+						<br>
+						<ul class="social-links" aria-label="Social links">
+							<li>
+								<a href="mailto:georgezhang744@gmail.com" aria-label="Email">
+									<i class="fa-solid fa-envelope" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/george-zhang-4606a6268/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+									<i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://github.com/GeorgeZhang744" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+									<i class="fa-brands fa-github" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<ul>
+					<li>&copy; 2026 George Zhang. All rights reserved.</li>
+					<li>Layout inspired by <a href="https://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<script src="assets/js/portfolio.js"></script>
 	</body>
 </html>
